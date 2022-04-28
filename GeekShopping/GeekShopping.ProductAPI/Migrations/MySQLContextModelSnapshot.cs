@@ -56,6 +56,17 @@ namespace GeekShopping.ProductAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("product");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2L,
+                            Category = "Informatica",
+                            Description = "Tela de pc",
+                            ImageURL = "https://www.digitalavmagazine.com/wp-content/uploads/2020/08/Philips-279C9.jpg",
+                            Name = "Monitor",
+                            Price = 1.1m
+                        });
                 });
 #pragma warning restore 612, 618
         }

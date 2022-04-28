@@ -7,14 +7,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{2D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A274BF1A-9CBE-4435-A20D-A2029CA1469A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{A71CEF09-FB54-47BE-B5B4-AE2C74842735}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{A71CEF09-FB54-47BE-B5B4-AE2C74842735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{092992BA-2550-41C6-93FE-6FA4CA79EC52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{092992BA-2550-41C6-93FE-6FA4CA79EC52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30606079-50BB-427A-8A63-75518D879526}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.IdentityServer", "GeekShopping.IdentityServer\GeekShopping.IdentityServer.csproj", "{8A44C4EA-A425-40D7-B9F9-2250A775053B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{092992BA-2550-41C6-93FE-6FA4CA79EC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{092992BA-2550-41C6-93FE-6FA4CA79EC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{092992BA-2550-41C6-93FE-6FA4CA79EC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A44C4EA-A425-40D7-B9F9-2250A775053B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A44C4EA-A425-40D7-B9F9-2250A775053B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A44C4EA-A425-40D7-B9F9-2250A775053B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A44C4EA-A425-40D7-B9F9-2250A775053B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A71CEF09-FB54-47BE-B5B4-AE2C74842735} = {2DF1E06D-8900-4FB8-AD52-07CA5FC07C42}
 		{092992BA-2550-41C6-93FE-6FA4CA79EC52} = {A274BF1A-9CBE-4435-A20D-A2029CA1469A}
+		{8A44C4EA-A425-40D7-B9F9-2250A775053B} = {A274BF1A-9CBE-4435-A20D-A2029CA1469A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5B7FA6D-1A51-4D69-ADCB-6139B91AAFFE}
